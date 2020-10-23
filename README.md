@@ -4,3 +4,8 @@
 * Cheng-Tse Lu
 
 ## Project Introduction
+*Motivation*
+
+*Goal*
+
+*Deliverable*
