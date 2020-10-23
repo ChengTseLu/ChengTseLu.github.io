@@ -10,7 +10,9 @@ Due to COVID-19 pandemic, there are more than 40 million confirmed cases, with 1
 
 **Goal**  
 
-Incorporate deep learning algorithm for mask detection and use a thermal sensor to measure body temperature.
+Incorporate deep learning algorithm for mask detection and use a thermal sensor to measure body temperature within 1 to 2 ft. Also, sort the data in cloud
 
-**Deliverable**
+**Deliverable**  
+
+
 
