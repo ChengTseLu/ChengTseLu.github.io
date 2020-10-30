@@ -14,6 +14,6 @@ Incorporate deep learning algorithm for mask detection and use the sensor to mea
 
 **Deliverable**  
 
-Instead of using thermography camera for long range and multiple detections, we use small thermal sensor for better cost performance.
+Instead of using thermography camera for long range and multiple detections, we use small thermal sensor with edge AI computing to achieve the goal.
 
 
