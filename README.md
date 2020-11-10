@@ -1,4 +1,4 @@
-# Mask Detection with Body temperature Sensing
+# Mask Detection with Body Temperature Sensing
 
 ## Team Member
 * Cheng-Tse Lu
