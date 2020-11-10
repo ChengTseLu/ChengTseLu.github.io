@@ -29,5 +29,8 @@ Instead of using thermography camera for long range and multiple detections, we 
 
 ## Summary
 **Strengths**
+
 **Weakness**
+
 **Future Directions**
+
