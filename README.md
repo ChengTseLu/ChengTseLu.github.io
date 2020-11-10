@@ -16,4 +16,18 @@ Incorporate deep learning algorithm for mask detection and use the sensor to mea
 
 Instead of using thermography camera for long range and multiple detections, we use small thermal sensor with edge AI computing to achieve the goal.
 
+## Hardware Used in This Project
 
+## Part 1: Mask Detection Algorithm
+
+## Part 2: Body Temperature Sensing
+
+## Part 3: Cloud Storage
+
+## Final: Combine 3 Parts
+**Demo**
+
+## Summary
+**Strengths**
+**Weakness**
+**Future Directions**
