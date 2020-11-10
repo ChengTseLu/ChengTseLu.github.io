@@ -34,7 +34,7 @@ Instead of using thermography camera for long range and multiple detections, we 
 
 **Future Directions**
 
-## Final Presentation Slide
+**Final Presentation Slide**
 
 ## References
 **Data Sets**
