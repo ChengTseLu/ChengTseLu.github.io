@@ -10,3 +10,7 @@ class thermal_sensor:
 
     def temp(self):
         return self.mlx.ambient_temperature, self.mlx.object_temperature
+
+if __name__ == "__main__":
+    TS = thermal_sensor()
+    print(TS.temp())

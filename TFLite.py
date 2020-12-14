@@ -191,3 +191,18 @@ class tflite:
     # stop video stream
     def stop(self):
         self.videostream.stop()
+
+
+# testing
+if __name__ == "__main__":
+
+    Mask = tflite('mask_detection', 'detect.tflite', 'mask.txt', 0.5, '600x600', False)
+    while True:
+        frame, result = Mask.get_frame()
+        cv2.imshow('test', frame)
+
+        # Press 'q' to quit
+        if cv2.waitKey(1) == ord('q'):
+            Mask.stop()
+            cv2.destroyAllWindows()
+            break
