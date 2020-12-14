@@ -17,6 +17,10 @@ Incorporate deep learning algorithm for mask detection and use the sensor to mea
 Instead of using thermography camera for long range and multiple detections, we use small thermal sensor with edge AI computing to achieve the goal.
 
 ## Hardware Used in This Project
+* Raspberry Pi 4 Model B (4GB RAM)
+* Raspberry Pi camera v2.1
+* GY-MLX90614-DCI
+* Google Coral
 
 ## Part 1: Mask Detection Algorithm
 
