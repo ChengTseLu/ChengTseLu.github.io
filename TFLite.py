@@ -196,6 +196,7 @@ class tflite:
 # testing
 if __name__ == "__main__":
 
+    # set False to true if using Google Coral
     Mask = tflite('mask_detection', 'detect.tflite', 'mask.txt', 0.5, '600x600', False)
     while True:
         frame, result = Mask.get_frame()
