@@ -24,6 +24,7 @@ Instead of using thermography camera for long range and multiple detections, we 
 
 ## Part 1: Mask Detection Algorithm
 
+
 ## Part 2: Body Temperature Sensing
 
 ## Part 3: Cloud Storage
