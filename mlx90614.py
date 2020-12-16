@@ -1,6 +1,7 @@
 import board
 import busio as io
 import adafruit_mlx90614
+import time
 
 class thermal_sensor:
 
@@ -13,4 +14,6 @@ class thermal_sensor:
 
 if __name__ == "__main__":
     TS = thermal_sensor()
-    print(TS.temp())
+    for i in range(10):
+        print(TS.temp())
+        time.sleep(1)
