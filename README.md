@@ -94,8 +94,8 @@ Run a simple test using following command (make sure Raspberry Pi camera is inst
         
 
 ## Part 2: Body Temperature Sensing
-
-![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/mlx90614.png)
+[GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380C range with a 0.02C resolution.  
+![Raspberry Pi GPIO Connection](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/mlx90614.png)
 
 ## Part 3: Cloud Storage
 
