@@ -22,6 +22,10 @@ Instead of using thermography camera for long range and multiple detections, I u
 * GY-MLX90614-DCI
 * Google Coral (Edge TPU)
 
+## Installation on Raspberry Pi
+sudo apt-get install python-virtualenv
+
+
 ## Part 1: Mask Detection Algorithm
 
 ### Training Tool
@@ -48,6 +52,9 @@ I use an open source [dataset](https://github.com/AIZOOTech/FaceMaskDetection) w
 More details about training steps can be found online ([offical doc](https://towardsdatascience.com/creating-your-own-object-detector-ad69dda69c85))  
 More details about freezing model to .tflite ([offical doc](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tensorflowlite.md))  
 More details about converting to edge tpu compatible model ([offical doc](https://coral.ai/docs/edgetpu/compiler/#system-requirements))
+
+### Raspberry Pi Implement
+
 
 ## Part 2: Body Temperature Sensing
 
