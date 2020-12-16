@@ -95,6 +95,7 @@ Run a simple test using following command (make sure Raspberry Pi camera is inst
 Press Q to exit the code
 
 ## Part 2: Body Temperature Sensing
+
 [GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380 C range with a 0.02 C resolution. The maximum distance measued can go up to 50 cm.
 
 ### Raspberry Pi GPIO Connection
@@ -106,6 +107,13 @@ adafruit_mlx90614 library is necessary for running temperature measuring code
         python3 mlx90614.py
 
 ## Part 3: Cloud Storage
+
+I choose Google Firebase database to store the detection results and temperature data. Google Firebase allows people to store and sync data between users in realtime. Data in Google Firebase is stored as JSON files, and people are able to define their own data structure.
+### Data Structure
+* Date: Year/Month/Date hr:min:sec
+* Mask: Mask or Nomask
+* TEMP: temperature
+![]
 
 ## Final: Combine 3 Parts
 **Demo**
