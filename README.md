@@ -69,7 +69,7 @@ I use [Google Object Detection API](https://github.com/tensorflow/models) for tr
 * Small Size: able to run on raspberry pi since we only have 4GB RAM
 * Tensorflow Lite Compatible: a lightweight library designs for edge devices to deploy models (Note: Tensorflow Lite does not support RCNN models, only SSD models) 
   
-After evaluating models under this three criterias, I select ssd mobilenet v2 quantized model for my Mask Detection Algorithm (quantizing the model from FP32 (float) to INT8 (int) increase the speed and reduce the model size; however, the accuracy would also decrease)
+After evaluating models under this three criterias, I select ssd mobilenet v2 quantized model for my Mask Detection Algorithm (quantizing the model from FP32 (float) to INT8 (int) increase the speed and reduce the model size; however, the accuracy would also slightly decrease)
 
 ### Dataset
 I use an open source [dataset](https://github.com/AIZOOTech/FaceMaskDetection) which contain 7959 images and bounding boxes of both mask and nomask. According to their description, "the dataset is composed of WIDER Face and MAFA, and we verified some wrong annotations." The file can be downloaded through [google drive](https://drive.google.com/file/d/1QspxOJMDf_rAWVV7AU_Nc0rjo1_EPEDW/view) (763Mb)
@@ -127,6 +127,17 @@ Run the following command to test Google Firebase service. Modify the url to you
 ![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/cloud.png)
 
 ## Final: Combine 3 Parts
+Lastly, I combine all three parts above together for final demo. I also create a simply GUI to show the mask detection and temperature results together. The data would be stored in cloud if the person stay in front of the camera for 0.5 to 1 sec.
+
+* Without Google Coral 
+
+        python3 main.py
+
+* With Google Coral  
+
+        python3 main.py --edgetpu
+        
+
 **Demo**
 
 ## Summary
