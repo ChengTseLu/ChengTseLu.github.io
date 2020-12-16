@@ -31,9 +31,22 @@ I use [Google Object Detection API](https://github.com/tensorflow/models) for tr
 ### Algorithm Selection
 * Fast: need to be real-time detection on raspberry pi so that the processor can have time handle other tasks
 * Small Size: able to run on raspberry pi since we only have 4GB RAM
-* Tensorflow Lite Compatible: a lightweight library designs for edge devices to deploy models  
+* Tensorflow Lite Compatible: a lightweight library designs for edge devices to deploy models (Note: Tensorflow Lite does not support RCNN models, only SSD models) 
   
 After evaluating models under this three criterias, I select ssd mobilenet v2 quntized model for my Mask Detection Algorithm.
+
+### Dataset
+
+### Training Steps 
+* Step 1: Generating TFRecords from dataset
+* Step 2: Configuring training
+* Step 3: Training model
+* Step 4: Freeze model to .tflite
+* Step 5: Convert .tflite to Edge TPU compatible model
+  
+More details about training steps can be found online ([offical doc](https://towardsdatascience.com/creating-your-own-object-detector-ad69dda69c85)) 
+More details about freezing model to .tflite ([offical doc](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tensorflowlite.md))  
+More details about converting to edge tpu compatible model ([offical doc](https://coral.ai/docs/edgetpu/compiler/#system-requirements))
 
 
 ## Part 2: Body Temperature Sensing
