@@ -87,16 +87,23 @@ More details about converting to edge tpu compatible model ([offical doc](https:
 
 ### Raspberry Pi Implement
 The mask detection model is trained and uploaded in the mask_detection folder  
-Run a simple test using following command (make sure Raspberry Pi camera is installed)
+Run a simple test using following command (make sure Raspberry Pi camera is installed)  
+Press Q to exit the code  
 
-        cd MaskDetectionTempSensing
         python3 TFlite.py
         
 
 ## Part 2: Body Temperature Sensing
-[GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380 C range with a 0.02 C resolution.  
-Raspberry Pi GPIO Connection
+[GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380 C range with a 0.02 C resolution. The maximum distance measued can go up to 50 cm.
+
+### Raspberry Pi GPIO Connection
 ![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/mlx90614.png)
+
+### Test Code and Instructions
+        adafruit_mlx90614
+library is necessary for running temperature measuring code  
+
+        python3 mlx90614.py
 
 ## Part 3: Cloud Storage
 
