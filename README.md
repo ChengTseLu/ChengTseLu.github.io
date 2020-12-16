@@ -14,7 +14,7 @@ Incorporate deep learning algorithm for mask detection and use the sensor to mea
 
 **Deliverable**  
 
-Instead of using thermography camera for long range and multiple detections, we use small thermal sensor with edge AI computing to achieve the goal.
+Instead of using thermography camera for long range and multiple detections, I use small thermal sensor with edge AI computing to achieve the goal.
 
 ## Hardware Used in This Project
 * Raspberry Pi 4 Model B (4GB RAM)
@@ -23,6 +23,16 @@ Instead of using thermography camera for long range and multiple detections, we 
 * Google Coral
 
 ## Part 1: Mask Detection Algorithm
+
+### Training Tool
+I use [Google Object Detection API](https://github.com/tensorflow/models) for training deep neural network. It provides more than 20 different models including SSD, Faster RCNN, Mask RCNN to choose except YOLO. Also, most of the models are trained under COCO dataset and evaluated under the same environment ([speed vs accuracy](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md)), so we can have better understanding of the performance of models.
+
+
+### Algorithm Selection
+* Fast: need to be real-time detection on raspberry pi so that the processor can have time handle other tasks
+* Small Size: able to run on raspberry pi since we only have 4GB RAM
+* Tensorflow Lite Compatible: a lightweight library designs for edge devices to deploy models
+After evaluating models under this three criterias, I select ssd mobilenet v2 quntized model for my Mask Detection Algorithm.
 
 
 ## Part 2: Body Temperature Sensing
