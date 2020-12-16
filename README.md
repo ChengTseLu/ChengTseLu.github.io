@@ -113,7 +113,7 @@ I choose Google Firebase database to store the detection results and temperature
 * Date: Year/Month/Date hr:min:sec
 * Mask: Mask or Nomask
 * TEMP: temperature
-![]
+![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/cloud.png)
 
 ## Final: Combine 3 Parts
 **Demo**
