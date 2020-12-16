@@ -44,10 +44,9 @@ After evaluating models under this three criterias, I select ssd mobilenet v2 qu
 * Step 4: Freeze model to .tflite
 * Step 5: Convert .tflite to Edge TPU compatible model
   
-More details about training steps can be found online ([offical doc](https://towardsdatascience.com/creating-your-own-object-detector-ad69dda69c85)) 
+More details about training steps can be found online ([offical doc](https://towardsdatascience.com/creating-your-own-object-detector-ad69dda69c85))  
 More details about freezing model to .tflite ([offical doc](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tensorflowlite.md))  
 More details about converting to edge tpu compatible model ([offical doc](https://coral.ai/docs/edgetpu/compiler/#system-requirements))
-
 
 ## Part 2: Body Temperature Sensing
 
