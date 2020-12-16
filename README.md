@@ -23,6 +23,11 @@ Instead of using thermography camera for long range and multiple detections, I u
 * Google Coral (Edge TPU)
 
 ## Installation on Raspberry Pi
+* Clone the github project
+
+        git clone https://github.com/ChengTseLu/MaskDetectionTempSensing.git
+        cd MaskDetectionTempSensing
+        
 * Install python virtual environment
 
         sudo apt-get install python-virtualenv
