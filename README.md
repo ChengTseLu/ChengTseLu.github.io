@@ -55,6 +55,8 @@ Instead of using thermography camera for long range and multiple detections, I u
         sudo apt-get update
         sudo apt-get install libedgetpu1-std
 
+* If error indicates no module named 'cv2', delete the project-env folder, deactivate the virtual environment and reinstall the packages again (try couple times)
+
 
 ## Part 1: Mask Detection Algorithm
 
@@ -85,7 +87,7 @@ More details about converting to edge tpu compatible model ([offical doc](https:
 
 ### Raspberry Pi Implement
 The mask detection model is trained and uploaded in the mask_detection folder  
-Run a simple test using following command
+Run a simple test using following command (make sure Raspberry Pi camera is installed)
 
         cd MaskDetectionTempSensing
         python3 TFlite.py
