@@ -24,7 +24,7 @@ Instead of using thermography camera for long range and multiple detections, I u
 
 ## Installation on Raspberry Pi
 
-  sudo apt-get install python-virtualenv
+    sudo apt-get install python-virtualenv
 
 
 
