@@ -95,7 +95,7 @@ Run a simple test using following command (make sure Raspberry Pi camera is inst
 
 ## Part 2: Body Temperature Sensing
 
-(https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/mlx90614.png)
+![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/mlx90614.png)
 
 ## Part 3: Cloud Storage
 
