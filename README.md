@@ -23,9 +23,25 @@ Instead of using thermography camera for long range and multiple detections, I u
 * Google Coral (Edge TPU)
 
 ## Installation on Raspberry Pi
-* install python virutal environment  
-    sudo apt-get install python-virtualenv
+* Install python virtual environment
 
+        sudo apt-get install python-virtualenv
+        pip3 install virtualenv
+        
+* Create python virtual environment
+        
+        python3 -m venv project-env
+        
+* Activate python virtual environment (activate everytime when open new terminal)
+
+        source project-env/bin/activate
+        
+* Install packages
+        
+        bash get_pi_requirements.sh
+        pip3 install adafruit-circuitpython-mlx90614
+        pip3 install requests
+        pip3 install https://github.com/google-coral/pycoral/releases/download/release-frogfish/tflite_runtime-2.5.0-cp37-cp37m-linux_armv7l.whl
 
 
 ## Part 1: Mask Detection Algorithm
