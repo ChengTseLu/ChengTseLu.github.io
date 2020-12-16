@@ -107,7 +107,7 @@ adafruit_mlx90614 library is necessary for running temperature measuring code
         python3 mlx90614.py
         
 ### Result From Test Code
-![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/temp.png)
+![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/temp_test.png)
 
 ## Part 3: Cloud Storage
 
@@ -124,7 +124,7 @@ Run the following command to test Google Firebase service. Modify the url to you
         python3 cloud.py
         
 ### Results from Test Code
-
+![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/cloud.png)
 
 ## Final: Combine 3 Parts
 **Demo**
