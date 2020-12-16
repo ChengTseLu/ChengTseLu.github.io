@@ -31,7 +31,7 @@ I use [Google Object Detection API](https://github.com/tensorflow/models) for tr
 ### Algorithm Selection
 * Fast: need to be real-time detection on raspberry pi so that the processor can have time handle other tasks
 * Small Size: able to run on raspberry pi since we only have 4GB RAM
-* Tensorflow Lite Compatible: a lightweight library designs for edge devices to deploy models \\
+* Tensorflow Lite Compatible: a lightweight library designs for edge devices to deploy models  
 After evaluating models under this three criterias, I select ssd mobilenet v2 quntized model for my Mask Detection Algorithm.
 
 
