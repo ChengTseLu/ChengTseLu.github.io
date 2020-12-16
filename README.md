@@ -101,7 +101,7 @@ Press Q to exit the code
 ### Raspberry Pi GPIO Connection
 ![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/mlx90614.png)
 
-### Test Code and Instructions
+### Test Code
 adafruit_mlx90614 library is necessary for running temperature measuring code
 
         python3 mlx90614.py
@@ -109,10 +109,18 @@ adafruit_mlx90614 library is necessary for running temperature measuring code
 ## Part 3: Cloud Storage
 
 I choose Google Firebase database to store the detection results and temperature data. Google Firebase allows people to store and sync data between users in realtime. Data in Google Firebase is stored as JSON files, and people are able to define their own data structure.
+
 ### Data Structure
 * Date: Year/Month/Date hr:min:sec
 * Mask: Mask or Nomask
-* TEMP: temperature
+* TEMP: temperature  
+
+### Test Code
+Run the following command to test Google Firebase service. Modify the url to your own project link
+
+        python3 cloud.py
+        
+### Results from Test Code
 ![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/cloud.png)
 
 ## Final: Combine 3 Parts
