@@ -124,7 +124,7 @@ Run the following command to test Google Firebase service. Modify the url to you
         python3 cloud.py
         
 ### Results from Test Code
-![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/cloud.png)
+
 
 ## Final: Combine 3 Parts
 **Demo**
