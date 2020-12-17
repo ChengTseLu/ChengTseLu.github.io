@@ -33,9 +33,9 @@ Instead of using thermography camera for long range and multiple detections, I u
         sudo apt-get install python-virtualenv
         pip3 install virtualenv
         
-* Create python virtual environment
+* Create python virtual environment (check your python version)
         
-        python3 -m venv project-env
+        python3.7 -m venv project-env
         
 * Activate python virtual environment (activate everytime when open new terminal)
 
@@ -137,8 +137,8 @@ Lastly, I combine all three parts above together for final demo. I also create a
 
         python3 main.py --edgetpu
         
-
 **Demo**
+
 
 ## Summary
 **Strengths**
