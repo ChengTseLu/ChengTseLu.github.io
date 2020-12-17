@@ -126,8 +126,8 @@ Run the following command to test Google Firebase service. Modify the url to you
 ### Results from Test Code
 ![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/cloud.png)
 
-## Final: Combine 3 Parts
-Lastly, I combine all three parts above together for final demo. I also create a simply GUI to show the mask detection and temperature results together. The data would be stored in cloud if the person stay in front of the camera for 0.5 to 1 sec.
+## Final: Combining 3 Parts
+Lastly, I combine all three parts above together for final demo. I also create a simply GUI to show the mask detection and temperature results together. The data would be stored in cloud if the person stays in front of the camera for 0.5 to 1 sec. The resolution of the video is set to be 600 x 600 
 
 * Without Google Coral 
 
@@ -139,8 +139,11 @@ Lastly, I combine all three parts above together for final demo. I also create a
         
 **Demo**
 
+As the demo shows, mask detusing Google Coral 
 
 ## Summary
+To sum up, I successfully implement a edge computing system that can detect masks, sense body temperature without contacting, and store detection data to cloud service. 
+
 **Strengths**
 
 **Weakness**
