@@ -96,7 +96,7 @@ Press Q to exit the code
 
 ## Part 2: Body Temperature Sensing
 
-[GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380 C range with a 0.02 C resolution. The maximum distance measued can go up to 50 cm, and the ideal distance to measure body temperature is within 15 cm.
+[GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380 C range with a 0.02 C resolution. The maximum distance measured can go up to 50 cm, and the ideal distance to measure body temperature is within 15 cm.
 
 ### Raspberry Pi GPIO Connection
 <img src="pic/mlx90614.png" />
@@ -159,7 +159,7 @@ To sum up, I successfully implement a edge computing system that can detect mask
 * Contactless temperature measurement
 * Realtime data storage to cloud
 
-### Weaknes
+### Weakness
 * Short temperature measurement range
 * The temperature measurement may be inaccurate if the sensor is pointing to hair instead of pointing to forehead
 
