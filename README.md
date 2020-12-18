@@ -96,7 +96,7 @@ Press Q to exit the code
 
 ## Part 2: Body Temperature Sensing
 
-[GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380 C range with a 0.02 C resolution. The maximum distance measued can go up to 50 cm.
+[GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380 C range with a 0.02 C resolution. The maximum distance measued can go up to 50 cm, and the ideal distance to measure body temperature is within 15 cm.
 
 ### Raspberry Pi GPIO Connection
 <img src="pic/mlx90614.png" />
@@ -146,10 +146,10 @@ Lastly, I combine all three parts above together for final demo. I also create a
 * With Google Coral (click the image to watch video)  
 [![](https://img.youtube.com/vi/5RzljlphCLM/0.jpg)](https://www.youtube.com/watch?v=5RzljlphCLM)
 
-As the demo shows, mask detusing Google Coral 
+
 
 ## Summary
-To sum up, I successfully implement a edge computing system that can detect masks, sense body temperature without contacting, and store detection data to cloud service. 
+To sum up, I successfully implement a edge computing system that can detect masks, sense body temperature without contacting, and store detection data to cloud service. As the demos show, average fps without using Google Coral is about 4.2; however, average fps using Google Coral is roughly 50 which is 12 times faster (the result may be different if using USB 2.0 instead of using USB 3.0). 
 
 **Strengths**
 
