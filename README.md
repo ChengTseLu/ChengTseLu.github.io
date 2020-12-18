@@ -141,7 +141,7 @@ Lastly, I combine all three parts above together for final demo. I also create a
 ### Demo
 
 * Hardware Setup
-<img src="pic/mlx90614.png" />
+<img src="pic/hardware.jpg" />
 
 * Without Google Coral (click the image to watch video)  
 [![](https://img.youtube.com/vi/MRjpsW1aMSM/0.jpg)](https://www.youtube.com/watch?v=MRjpsW1aMSM)
