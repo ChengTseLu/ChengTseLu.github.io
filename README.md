@@ -134,7 +134,7 @@ Lastly, I combine all three parts above together for final demo. I also create a
         python3 main.py
 
 ** Demo
-[![](https://www.youtube.com/watch?v=MRjpsW1aMSM/0.jpg)](https://www.youtube.com/watch?v=MRjpsW1aMSM)
+[![avc](https://www.youtube.com/watch?v=MRjpsW1aMSM/0.jpg)](https://www.youtube.com/watch?v=MRjpsW1aMSM)
 
 * With Google Coral  
 
