@@ -4,15 +4,15 @@
 * Cheng-Tse Lu
 
 ## Project Introduction
-**Motivation**  
+### Motivation  
 
 Due to COVID-19 pandemic, there are more than 40 million confirmed cases, with 1 million people deaths attributed to the pandemic. COVID-19 spreads very easily through the air when an infected person or an asymptomatic infection breathes, coughs, talks, or sneezes. Centers for Disease Control and Prevention (CDC) recommends that “people wear masks in public settings, like on public and mass transportation, at events and gatherings, and anywhere they will be around other people” and “masks may help prevent people who have COVID-19 from spreading the virus to others.” Therefore, having a system that can detect whether a person is wearing a mask and also measuring his/her body temperature at the same time could keep tracking people's health; furthermore, reduce the risk of being infected.
 
-**Goal**  
+### Goal  
 
 Incorporate deep learning algorithm for mask detection and use the sensor to measure body temperature. Also, sort the data in cloud.
 
-**Deliverable**  
+### Deliverable  
 
 Instead of using thermography camera for long range and multiple detections, I use small thermal sensor with edge AI computing to achieve the goal.
 
@@ -129,6 +129,7 @@ Run the following command to test Google Firebase service. Modify the url to you
 ## Final: Combining 3 Parts
 Lastly, I combine all three parts above together for final demo. I also create a simply GUI to show the mask detection and temperature results together. The data would be stored in cloud if the person stays in front of the camera for 0.5 to 1 sec. The resolution of the video is set to be 600 x 600.
 
+### Test Code
 * Without Google Coral 
 
         python3 main.py
@@ -137,12 +138,12 @@ Lastly, I combine all three parts above together for final demo. I also create a
 
         python3 main.py --edgetpu
 
-**Demo**
+### Demo
 
-* Without Google Coral  
+* Without Google Coral (click the image to watch video)  
 [![](https://img.youtube.com/vi/MRjpsW1aMSM/0.jpg)](https://www.youtube.com/watch?v=MRjpsW1aMSM)
 
-* With Google Coral  
+* With Google Coral (click the image to watch video)  
 [![](https://img.youtube.com/vi/5RzljlphCLM/0.jpg)](https://www.youtube.com/watch?v=5RzljlphCLM)
 
 As the demo shows, mask detusing Google Coral 
