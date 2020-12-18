@@ -165,7 +165,7 @@ To sum up, I successfully implement a edge computing system that can detect mask
 
 
 ### Final Presentation
-[Final Presentation Youtube](https://www.youtube.com/watch?v=YKOKsIjt3Xg)
+[Final Presentation Youtube](https://www.youtube.com/watch?v=YKOKsIjt3Xg)  
 [Final Presentation Slide](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/Final%20Porject%20Presentation.pdf)
 
 ## References
