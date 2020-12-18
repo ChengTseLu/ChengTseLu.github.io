@@ -99,7 +99,7 @@ Press Q to exit the code
 [GY-MLX90614-DCI](https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php) has a high precision contactless temperature measurement. The sensor can detect object temperature from -70 to +380 C range with a 0.02 C resolution. The maximum distance measued can go up to 50 cm.
 
 ### Raspberry Pi GPIO Connection
-<img src="pic/mlx90614.png" />![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/mlx90614.png)
+<img src="pic/mlx90614.png" />
 
 ### Test Code
 adafruit_mlx90614 library is necessary for running temperature measuring code
@@ -107,7 +107,7 @@ adafruit_mlx90614 library is necessary for running temperature measuring code
         python3 mlx90614.py
         
 ### Result From Test Code
-![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/temp_test.png)
+<img src="pic/temp_test.png" />
 
 ## Part 3: Cloud Storage
 
@@ -124,7 +124,7 @@ Run the following command to test Google Firebase service. Modify the url to you
         python3 cloud.py
         
 ### Results from Test Code
-![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/cloud.png)
+<img src="pic/cloud.png" />
 
 ## Final: Combining 3 Parts
 Lastly, I combine all three parts above together for final demo. I also create a simply GUI to show the mask detection and temperature results together. The data would be stored in cloud if the person stays in front of the camera for 0.5 to 1 sec. The resolution of the video is set to be 600 x 600.
