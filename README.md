@@ -107,7 +107,7 @@ adafruit_mlx90614 library is necessary for running temperature measuring code
         python3 mlx90614.py
         
 ### Result From Test Code
-<img src="pic/temp_test.png" />![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/temp_test.png)
+<img src="pic/temp_test.png" />
 
 ## Part 3: Cloud Storage
 
@@ -124,7 +124,7 @@ Run the following command to test Google Firebase service. Modify the url to you
         python3 cloud.py
         
 ### Results from Test Code
-<img src="pic/cloud.png" />![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/cloud.png)
+<img src="pic/cloud.png" />
 
 ## Final: Combining 3 Parts
 Lastly, I combine all three parts above together for final demo. I also create a simply GUI to show the mask detection and temperature results together. The data would be stored in cloud if the person stays in front of the camera for 0.5 to 1 sec. The resolution of the video is set to be 600 x 600.
