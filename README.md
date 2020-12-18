@@ -161,6 +161,7 @@ To sum up, I successfully implement a edge computing system that can detect mask
 
 ### Weaknes
 * Short temperature measurement range
+* The temperature measurement may be inaccurate if the sensor is pointing to hair instead of pointing to forehead
 
 
 ### Final Presentation Slide
