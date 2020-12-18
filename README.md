@@ -133,13 +133,14 @@ Lastly, I combine all three parts above together for final demo. I also create a
 
         python3 main.py
 
-** Demo
 [![](https://img.youtube.com/vi/MRjpsW1aMSM/0.jpg)](https://www.youtube.com/watch?v=MRjpsW1aMSM)
 
 * With Google Coral  
 
         python3 main.py --edgetpu
-        
+
+[![](https://img.youtube.com/vi/5RzljlphCLM/0.jpg)](https://www.youtube.com/watch?v=5RzljlphCLM)
+
 **Demo**
 
 As the demo shows, mask detusing Google Coral 
