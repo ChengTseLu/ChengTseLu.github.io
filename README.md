@@ -164,7 +164,9 @@ To sum up, I successfully implement a edge computing system that can detect mask
 * The temperature measurement may be inaccurate if the sensor is pointing to hair instead of pointing to forehead
 
 
-### Final Presentation Slide
+### Final Presentation
+[Final Presentation Youtube](https://www.youtube.com/watch?v=YKOKsIjt3Xg)
+[Final Presentation Slide](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/Final%20Porject%20Presentation.pdf)
 
 ## References
 * [Data Sets](https://github.com/AIZOOTech/FaceMaskDetection)
