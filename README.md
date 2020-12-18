@@ -81,7 +81,7 @@ I use an open source [dataset](https://github.com/AIZOOTech/FaceMaskDetection) w
 * Step 4: Freeze model to .tflite
 * Step 5: Convert .tflite to Edge TPU compatible model
   
-More details about training steps can be found online ([offical doc](https://towardsdatascience.com/creating-your-own-object-detector-ad69dda69c85))  
+More details about training steps can be found online ([offical doc](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_training_and_evaluation.md))  
 More details about freezing model to .tflite ([offical doc](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tensorflowlite.md))  
 More details about converting to edge tpu compatible model ([offical doc](https://coral.ai/docs/edgetpu/compiler/#system-requirements))
 
@@ -151,7 +151,7 @@ Lastly, I combine all three parts above together for final demo. I also create a
 
 
 
-## Conclusion and Future directions
+## Conclusion and Future Directions
 To sum up, I successfully implement a edge computing system that can detect masks, sense body temperature without contacting, and store detection data to cloud service. As the demos show, average fps without using Google Coral is about 4.2; however, average fps using Google Coral is roughly 50 which is 12 times faster, and it is amazing to see such achievement on an edge device (the result may be different using USB 2.0 instead of using USB 3.0). Although the thermal sensor is able to do contactless body temperature measurement, the ideal distance to mearsure body temperature is quite short. In the future, I may use thermal imaging camera to get more precise temperature measurement for longer distance, and the imaging data can combined with mask detection algorithm to get a more accurate detection result. Lastly, mask detection and temperature data are able to store to cloud service realtime, but I also want to implement storing the cropped picture of the person with or without mask to the cloud in future.
 
 ### Strengths
@@ -166,4 +166,6 @@ To sum up, I successfully implement a edge computing system that can detect mask
 ### Final Presentation Slide
 
 ## References
-**Data Sets**
+* [Data Sets](https://github.com/AIZOOTech/FaceMaskDetection)
+* [Google Object Detection Api](https://github.com/tensorflow/models)
+* [Raspberry Pi Tensorflow Lite Setup](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi)
