@@ -107,7 +107,7 @@ adafruit_mlx90614 library is necessary for running temperature measuring code
         python3 mlx90614.py
         
 ### Result From Test Code
-![](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/temp_test.png)
+![abc](https://github.com/ChengTseLu/MaskDetectionTempSensing/blob/main/pic/temp_test.png)
 
 ## Part 3: Cloud Storage
 
