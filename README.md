@@ -133,6 +133,9 @@ Lastly, I combine all three parts above together for final demo. I also create a
 
         python3 main.py
 
+** Demo
+[![](https://youtu.be/MRjpsW1aMSM/0.jpg)](https://youtu.be/MRjpsW1aMSM)
+
 * With Google Coral  
 
         python3 main.py --edgetpu
